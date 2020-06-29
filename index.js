@@ -11,17 +11,4 @@ const map = require('./map');
 const without = require('./without');
 const takeUntil = require('./takeUntil');
 
-module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  letterPositions: letterPositions,
-  map: map,
-  without: without,
-  takeUntil: takeUntil
-};
+module.exports = head, tail, middle, countOnly, countLetters, eqObjects, findKey, findKeyByValue, letterPositions, map, without, takeUntil};
