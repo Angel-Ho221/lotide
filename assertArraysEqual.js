@@ -23,3 +23,5 @@ function eqArrays(arrayOne, arrayTwo) {
   }
   return equal;
 }
+
+module.exports = assertArraysEqual;

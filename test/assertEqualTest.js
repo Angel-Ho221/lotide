@@ -7,4 +7,3 @@ assertEqual("Hi", "Bye");
 assertEqual(5, 5);
 assertEqual("10", 10);
 
-module.exports = assertEqual; 

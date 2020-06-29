@@ -5,6 +5,15 @@ function assertEqual(actual, expected) {
     console.log(`Assertion Failed: ${actual} !== ${expected}`);
   }
 }
-function tail(array) {
-  return array.slice(1);
+function head(array) {
+  return array[0];
 }
+
+function tail(array) {
+  let arguments = array.slice(1);
+  return arguments;
+}
+
+module.exports = tail;
+
+
